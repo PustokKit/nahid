@@ -6,7 +6,7 @@ body{
 }
 
 a:link {
-  color: black; /* Default link color */
+  color: blue; /* Default link color */
 }
 
 a:visited {
