@@ -25,3 +25,18 @@ a {
     color: #80bfff;
   }
 }
+
+
+/* Style for checkbox and marked links */
+.mark-checkbox {
+  margin-right: 8px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Optional: highlight checked items */
+.mark-checkbox:checked + a {
+  background-color: #d0f0c0;
+  font-weight: bold;
+  color: green;
+}
