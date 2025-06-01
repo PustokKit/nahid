@@ -1,12 +1,15 @@
 body{
   padding: 25px;
+  font-size: 125%;
+  font-family: arial;
+  
 }
 .title {
 	color: #5C6AC4;
 }
 
 a:link {
-  color: blue; /* Default link color */
+  color: lightblue; /* Default link color */
 }
 
 a:visited {
