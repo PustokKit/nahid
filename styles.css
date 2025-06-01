@@ -1,17 +1,27 @@
+
+
 body{
   padding: 25px;
   font-size: 125%;
   font-family: arial;
-  
+  background-color: black;
 }
 .title {
 	color: #5C6AC4;
 }
 
 a:link {
-  color: lightblue; /* Default link color */
+  color: ashwhite; /* Default link color */
 }
 
 a:visited {
   color: red; /* Color after the link has been visited */
+}
+a {
+  color: blue;
+}
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #80bfff;
+  }
 }
